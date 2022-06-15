@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="../Css/index.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Search Weather For Your City</h1>
+        <div id="search">
+            <i class="far fa-search flex__search--img"></i>
+            <input type="text" id = "city" placeholder="Enter City" >
+            <button onclick="getWeather()" >Search</button>
+
+        </div>
+        <div id = "data">
+            <div id = "left"></div>
+            <div id = "right">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+
+            </div>
+        </div>
+        <div id = "nextData"></div>
+    </div>
+</body>
+</html>
+<script src="../Js/index.js">
+
+
+
+
+     
+// 
+
+
+</script>
+ <!-- //https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric` -->
+<!-- http://api.weatherapi.com/v1/forecast.json?key=e81e7ee35d014907aa2121934221003&q=${city}&days=7&aqi=no&alerts=no -->
+ <!-- // let url = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4c3b7f638dccba306c4b39112d44555f&units=metric`); -->
+
+
